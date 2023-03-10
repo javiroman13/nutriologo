@@ -1,22 +1,21 @@
-import java.util.Scanner;
-public class datosNutriologo {
+public class paciente {
     private String nombre;
     private int edad;
     private String sexo;
     private double estatura;
     private double Peso;
 
-    public datosNutriologo(String nombre, int edad, String sexo) {
+    public paciente(String nombre, int edad, String sexo) {
         this.nombre = nombre;
         this.edad = edad;
         this.sexo = sexo;
     }
 
-    public datosNutriologo() {
+    public paciente() {
 
     }
 
-    public datosNutriologo(String nombre, int edad, String sexo, double estatura, double peso) {
+    public paciente(String nombre, int edad, String sexo, double estatura, double peso) {
         this.nombre = nombre;
         this.edad = edad;
         this.sexo = sexo;
@@ -78,7 +77,4 @@ public class datosNutriologo {
 
 
 
-    }
-
-
-
+}

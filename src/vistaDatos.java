@@ -1,9 +1,10 @@
+
 import java.util.Scanner;
+public class vistaDatos {
+    public class vistaDeDatos {
+        public static void main(String[] args) {
 
-public class vistaDeDatos {
-    public static void main(String[] args) {
-
-        datosNutriologo persona = new datosNutriologo("javier",18,"m");//Creamos una instancia de la clase
+            paciente persona = new paciente("javier",18,"m");//Creamos una instancia de la clase
             Scanner sc = new Scanner(System.in);
 
             System.out.println("introduce el peso");
@@ -11,17 +12,8 @@ public class vistaDeDatos {
             System.out.println("Introduce estatura");
             persona.setEstatura(sc.nextDouble());
 
-        persona.imc();
+            persona.imc();
         }
 
     }
-
-
-
-
-
-
-
-
-
-
+}
